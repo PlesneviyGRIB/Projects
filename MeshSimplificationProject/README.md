@@ -1,4 +1,4 @@
-## Team project to simplify heavy 3D models.
+# Team project to simplify heavy 3D models.
 
 The idea of the project was to write various algorithms for models simplification.
 

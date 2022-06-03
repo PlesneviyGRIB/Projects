@@ -1,6 +1,6 @@
-# Team project to simplify heavy 3D models.
+# Team project of Mesh Simplification.
 
-The idea of the project was to write various algorithms for models simplification.
+The idea of the project was to write various algorithms for simplification heavy 3D models.
 
 
 ### Mesh-Simplification Library:

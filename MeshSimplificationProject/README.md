@@ -2,6 +2,8 @@
 
 The idea of the project was to write various algorithms for simplification heavy 3D models.
 
+![hand](./MeshSimplificationProject/hand.jpg)
+
 
 ### Mesh-Simplification Library:
 

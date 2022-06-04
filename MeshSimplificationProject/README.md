@@ -2,7 +2,7 @@
 
 The idea of the project was to write various algorithms for simplification heavy 3D models.
 
-![hand](./MeshSimplificationProject/hand.jpg)
+![bunny](https://miro.medium.com/max/1400/1*kNM_BLf2_9Zt6ZEdNPZGDA@2x.jpeg)
 
 
 ### Mesh-Simplification Library:

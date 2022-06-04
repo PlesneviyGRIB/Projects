@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.savchenko.snake.controllers.PausePageController">
+   <children>
+      <ImageView fx:id="restartButton" fitHeight="92.0" fitWidth="82.0" layoutX="309.0" layoutY="265.0" onMouseClicked="#restartButtonMouseClicked" onMouseEntered="#restartButtonMouseEntered" onMouseExited="#restartButtonMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../data/Buttons/restart.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="continueButton" fitHeight="82.0" fitWidth="90.0" layoutX="459.0" layoutY="269.0" onMouseClicked="#continueButtonMouseClicked" onMouseEntered="#continueButtonMouseEntered" onMouseExited="#continueButtonMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../data/Buttons/continue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="exitButton" fitHeight="82.0" fitWidth="89.0" layoutX="607.0" layoutY="269.0" onMouseClicked="#exitButtonMouseClicked" onMouseEntered="#exitButtonMouseEntered" onMouseExited="#exitButtonMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../data/Buttons/exit.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

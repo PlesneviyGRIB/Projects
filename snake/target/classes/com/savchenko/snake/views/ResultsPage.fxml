@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.savchenko.snake.controllers.ResultsPageController">
+   <children>
+      <ImageView fitHeight="86.0" fitWidth="66.0" layoutX="909.0" layoutY="27.0" onMouseClicked="#exitButtonClicked" onMouseEntered="#exitButtonEntered" onMouseExited="#exitButtonExited" pickOnBounds="true" preserveRatio="true" fx:id="xitButton">
+         <image>
+            <Image url="@../data/Buttons/exit.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="188.0" layoutY="28.0" prefHeight="544.0" prefWidth="625.0" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="restartButton" fitHeight="68.0" fitWidth="66.0" layoutX="813.0" layoutY="24.0" onMouseClicked="#restartButtonClicked" onMouseEntered="#restartButtonEntered" onMouseExited="#restartButtonExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../data/Buttons/restart.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
